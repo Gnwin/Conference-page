@@ -4,7 +4,7 @@
   "description": "This is a HTML &amp; CSS Project is based on an online website for a conference.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"sass": "sass --watch ./assets/stylesheets/scss/pages/style.scss:./assets/stylesheets/css/style.css ./assets/stylesheets/scss/pages/about.scss:./assets/stylesheets/css/about.css ./assets/stylesheets/scss/pages/tickets.scss:./assets/stylesheets/css/tickets.css"
   },
   "repository": {
     "type": "git",
