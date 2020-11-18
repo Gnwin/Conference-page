@@ -1,0 +1,46 @@
+/*** Project Meta ***/
+
+/* general - line __ */
+
+/* header - line __ */
+
+/* main content - line __ */
+
+/* footer - line __ */
+
+/** GENERAL **/
+
+@use 'typography';
+@use 'reset';
+
+.html {
+  font-family: typography.$font-stack;
+  font-size: typography.$font-size;
+}
+
+.reset *{
+	@include reset.reset;
+}
+
+.body {
+	position: relative;
+	background-image: url();
+  background-position: center;
+  background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.content {
+  max-width: 1310px;
+}
+
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

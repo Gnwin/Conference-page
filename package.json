@@ -4,7 +4,7 @@
   "description": "This is a HTML &amp; CSS Project is based on an online website for a conference.",
   "main": "index.html",
   "scripts": {
-		"sass": "sass --watch ./assets/stylesheets/scss/pages/style.scss:./assets/stylesheets/css/style.css ./assets/stylesheets/scss/pages/about.scss:./assets/stylesheets/css/about.css ./assets/stylesheets/scss/pages/tickets.scss:./assets/stylesheets/css/tickets.css"
+    "sass": "sass --watch ./assets/stylesheets/scss/style.scss:./assets/stylesheets/css/style.css ./assets/stylesheets/scss/about.scss:./assets/stylesheets/css/about.css ./assets/stylesheets/scss/tickets.scss:./assets/stylesheets/css/tickets.css  --style expanded"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/Gnwin/Conference-page/issues"
   },
   "homepage": "https://github.com/Gnwin/Conference-page#readme",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.29.0"
   }
 }
