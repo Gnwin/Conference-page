@@ -1,0 +1,22 @@
+{
+  "name": "conference",
+  "version": "1.0.0",
+  "description": "This is a HTML &amp; CSS Project is based on an online website for a conference.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gnwin/Conference-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gnwin/Conference-page/issues"
+  },
+  "homepage": "https://github.com/Gnwin/Conference-page#readme",
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
+}
