@@ -1,0 +1,44 @@
+@use 'colors';
+@use 'typography';
+/* main-content */
+
+.conference {}
+
+.pad {
+	padding: 0 1.5%;
+}
+
+.hello {
+	font-size: typography.$font-size * 2.8;
+}
+
+.hello,
+.conference-heading {
+	color: colors.$orange;
+}
+
+.conference-heading {
+	font-size: typography.$font-size * 4;
+	font-weight: 1000;
+	color: darken(colors.$orange, 10%);
+}
+
+.theme {
+	border: 4px solid black;
+	padding: 1rem;
+	line-height: 2;
+	font-size: typography.$font-size * 1.3;
+}
+
+.date {
+	font-size: typography.$font-size * 3;
+	padding: 0 1.5%;
+	font-weight: 1000;
+	color: colors.$dark;
+}
+
+.address {
+	font-size: typography.$font-size * 1.6;
+	color: colors.$dark;
+	margin-bottom: 6rem;
+}
