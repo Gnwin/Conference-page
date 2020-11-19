@@ -109,4 +109,50 @@
   margin-bottom: 6rem;
 }
 
+.event {
+  display: flex;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+.event {
+  margin: 1rem;
+}
+
+.event-pic {
+  width: 20%;
+  text-align: center;
+}
+
+.event-title {
+  width: 30%;
+}
+
+.event-text {
+  width: 50%;
+}
+
+.program {
+  background-color: #272a31;
+}
+
+.program-logo {
+  width: 4rem;
+}
+
+.program-title {
+  color: #ec5242;
+  font-size: 136%;
+  font-weight: bold;
+}
+
+.div-text {
+  width: 50%;
+}
+
+.program-text {
+  font-size: 104%;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
