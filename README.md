@@ -4,7 +4,7 @@
 
 > This is a HTML &amp; CSS Project is based on an online website for a conference.
 
-<!-- ![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png) -->
+![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png)
 <!-- ![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png) -->
 <!-- ![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png) -->
 
@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Gnwin/Godwin-Eraani-Next-Web-project/nextweb/index.html)
+[Live Demo Link](https://raw.githack.com/Gnwin/Conference-page/conference/index.html)
 
 ## Getting Started
 
@@ -33,13 +33,14 @@ To get a local copy up and running follow these simple example steps.
 > Browser
 > Text editor of your choice.
 > npm has to be installed in your system.
+> install SASS preprocesor
 > install the following linters on your IDE;
-    - Web hint.
-    - Style lint.
+    > Web hint.
+    > Style lint.
 
 ### Setup
 
-> `git clone https://github.com/Gnwin/Godwin-Eraani-Next-Web-project.git`
+> `git clone https://github.com/Gnwin/Conference-page.git`
 
 ### Usage
 
@@ -62,12 +63,15 @@ html5validator index.html
 
 👤 **Godwin Nwachukwu**
 
-- Github: [@Gnwin](https://github.com/Gnwin)
-- Linkedin: [@n-gwin](https://www.linkedin.com/in/n-gwin/)
+- GitHub: [@Gnwin](https://github.com/Gnwin)
+- Twitter [@gmarxr](https://twitter.com/gmarxr)
+- LinkedIn: [Godwin Nwachukwu](https://www.linkedin.com/in/n-gwin/)
 
-👤 **Eraani Ruiz**
+## Designer
 
-- Github: [@eraanir](https://github.com/eraanir)
+👤 **Cindy Shin**
+
+- Design idea: [Cindu Shin, Behance](https://www.behance.net/adagio07)
 
 ## 🤝 Contributing
 
