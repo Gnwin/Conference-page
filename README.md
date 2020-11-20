@@ -4,8 +4,8 @@
 
 > This is a HTML &amp; CSS Project is based on an online website for a conference.
 
-![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png)
-<!-- ![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png) -->
+![screenshot](https://github.com/Gnwin/Conference-page/blob/conference/assets/images/conferenceMockup.png)
+![screenshot](https://github.com/Gnwin/Conference-page/blob/conference/assets/images/conferenceMockup1.png)
 <!-- ![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png) -->
 
 > This project showcases a build of an exact layout of the creative commons global summit 2020 page design.
@@ -35,8 +35,8 @@ To get a local copy up and running follow these simple example steps.
 > npm has to be installed in your system.
 > install SASS preprocesor
 > install the following linters on your IDE;
-    > Web hint.
-    > Style lint.
+> - Web hint.
+> - Style lint.
 
 ### Setup
 
@@ -67,7 +67,7 @@ html5validator index.html
 - Twitter [@gmarxr](https://twitter.com/gmarxr)
 - LinkedIn: [Godwin Nwachukwu](https://www.linkedin.com/in/n-gwin/)
 
-## Designer
+## Graphics Designer
 
 👤 **Cindy Shin**
 
@@ -77,7 +77,7 @@ html5validator index.html
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/issues).
+Feel free to check the [issues page](https://github.com/Gnwin/Conference-page/issues).
 
 ## Show your support
 
