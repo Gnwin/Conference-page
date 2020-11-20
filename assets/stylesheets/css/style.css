@@ -18,6 +18,7 @@
 
 .body {
   position: relative;
+  background-image: url("../images/back.jpg");
 }
 
 .content {
@@ -205,34 +206,6 @@
   width: 70%;
 }
 
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .topnav .menu-li:not(:first-child) {
-    display: none;
-  }
-
-  .topnav a.icon {
-    display: block;
-  }
-
-  .topnav.responsive {
-    position: relative;
-  }
-
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .topnav.responsive .menu-li {
-    display: block;
-    text-align: left;
-  }
-}
 @media screen and (min-width: 768px) {
   .event-pic,
 .event-title,
