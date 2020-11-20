@@ -18,7 +18,7 @@
   font-size: typography.$font-size;
 }
 
-.reset *{
+.reset * {
 	@include reset.reset;
 }
 
@@ -33,7 +33,6 @@
 }
 
 .content {
-	max-width: 1200px;
 	width: 94%;
 }
 
@@ -46,4 +45,16 @@
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+@media screen and (min-width: 768px) {
+	.content {
+		max-width: 800px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.content {
+		max-width: 1200px;
+	}
 }
