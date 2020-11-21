@@ -1,3 +1,294 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url("../fonts/cocogoose_trial-webfont.woff");
+}
+@font-face {
+  font-family: Cocogoose;
+  font-weight: bold;
+  src: url("..fonts/cocogoose_trial-webfont.woff2");
+}
+/*** Project Meta ***/
+/* general - line __ */
+/* header - line __ */
+/* main content - line __ */
+/* footer - line __ */
+/** GENERAL **/
+.html {
+  font-family: "Cocogoose", "Lato", sans-serif;
+  font-size: 80%;
+}
 
+.reset * {
+  margin: 0;
+  padding: 0;
+  color: initial;
+  text-decoration: none;
+}
+
+.body {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/SunnySparks/HTML-Capstone-Project/master/img/bg-gray2.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 94%;
+}
+
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    max-width: 800px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .content {
+    max-width: 1200px;
+  }
+}
+/* header */
+.header .header-background {
+  background-color: rgba(39, 42, 49, 0.7);
+}
+.header .header-background .social-links {
+  color: white;
+  font-size: 79%;
+}
+.header .header-background .fa {
+  color: white;
+  font-size: 1.2rem;
+}
+.header .social-links,
+.header .menu-links {
+  text-decoration: none;
+}
+.header .menu-li {
+  margin-left: 3rem;
+}
+.header .nav2 {
+  padding: 0.5rem 0;
+}
+.header .active {
+  color: #ec5242;
+}
+
+.logo {
+  width: 50px;
+}
+
+.campaign {
+  color: #ec5242;
+  border: 4px solid #ec5242;
+  margin-left: 4rem;
+  padding: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header .back-white {
+    background-color: #fff;
+  }
+}
+/* main-content */
+.conference {
+  padding: 10rem 0;
+}
+
+.pad {
+  padding: 0 1.5%;
+}
+
+.hello {
+  font-size: 224%;
+}
+
+.hello,
+.conference-heading {
+  color: #ec5242;
+}
+
+.conference-heading {
+  font-size: 320%;
+  font-weight: 1000;
+  color: #e42a17;
+}
+
+.theme {
+  border: 4px solid white;
+  padding: 1rem;
+  line-height: 2;
+  font-size: 104%;
+  background-color: #d3d3d3;
+}
+
+.date {
+  font-size: 240%;
+  padding: 0 1.5%;
+  font-weight: 1000;
+  color: #272a31;
+}
+
+.address {
+  font-size: 128%;
+  color: #272a31;
+  margin-bottom: 6rem;
+}
+
+.event {
+  background-color: rgba(211, 211, 211, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.event-pic {
+  width: 20%;
+  text-align: center;
+}
+
+.event-title {
+  width: 30%;
+}
+
+.event-text {
+  width: 50%;
+}
+
+.program {
+  background-color: #272a31;
+}
+.program .main-program-border {
+  border: 1px solid #ec5242;
+  width: 2rem;
+}
+
+.main-program-border {
+  border: 1px solid #ec5242;
+  width: 2rem;
+}
+
+.program-logo {
+  width: 4rem;
+}
+
+.program-title {
+  color: #ec5242;
+  font-size: 136%;
+  font-weight: bold;
+}
+
+.div-text {
+  width: 50%;
+}
+
+.program-text {
+  font-size: 104%;
+  font-weight: bold;
+}
+
+.join {
+  background-color: #ec5242;
+  outline: 0;
+  font-size: 104%;
+  width: 75%;
+}
+
+.featured-speakers {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.see-all {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .event-pic,
+.event-title,
+.event-text {
+    width: unset;
+  }
+
+  .event {
+    margin: 0.2rem;
+  }
+
+  .programs {
+    max-width: 800px;
+  }
+
+  .join {
+    width: 40%;
+  }
+
+  .featured-speakers {
+    max-width: 812.8px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .conference .conference-width {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conference .conference-width {
+    width: 55%;
+  }
+
+  .programs {
+    max-width: 1200px;
+  }
+
+  .featured-speakers {
+    max-width: 1212.8px;
+  }
+}
+.partner-section {
+  background-color: #3d3f46;
+}
+
+.partners > * {
+  margin: 0 2rem;
+}
+
+.concatenate {
+  width: 30%;
+}
+
+.footer_right {
+  width: 70%;
+}
+
+.back-grey {
+  background-color: #d3d3d3;
+}
+
+@media screen and (min-width: 768px) {
+  .partners {
+    max-width: 812.8px;
+  }
+
+  .creative {
+    max-width: 812.8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partners {
+    max-width: 1212.8px;
+  }
+
+  .creative {
+    max-width: 1212.8px;
+  }
+}
 
 /*# sourceMappingURL=about.css.map */
