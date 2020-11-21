@@ -61,9 +61,24 @@
 	background-color: colors.$grey;
 }
 
-// .about-section .address {
-// 	width: 50%;
-// }
+.past1,
+.past2 {
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+
+.past-text,
+.past-text1 {
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	font-size: 1.4rem;
+}
+
+.past-pic,
+.past-pic1 {
+	width: 100%;
+}
 
 .event {
 	background-color: transparentize(colors.$grey, 0.9%);
@@ -132,8 +147,44 @@
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 360px) {
+	.conference-heading {
+		font-size: typography.$font-size * 2;
+	}
+}
+
 
 @media screen and (min-width: 768px) {
+	.past {
+		display: flex;
+	}
+
+	.past1,
+	.past2 {
+		width: 50%;
+		margin-bottom: 0;
+	}
+
+	.past-text,
+	.past-text1 {
+		left: 13%;
+		top: 40%;
+	}
+	
+	.past1 {
+		margin-right: 1rem;
+	}
+
+	.past2 {
+		margin-left: 1rem;
+	}
+
+	.past-pic,
+	.past-pic1 {
+		width: 100%;
+		margin: 0;
+	}
+
 	.event-pic,
 	.event-title,
 	.event-text {
