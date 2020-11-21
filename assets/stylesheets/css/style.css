@@ -65,6 +65,10 @@
   color: white;
   font-size: 79%;
 }
+.header .header-background .fa {
+  color: white;
+  font-size: 1.2rem;
+}
 .header .social-links,
 .header .menu-links {
   text-decoration: none;
