@@ -34,6 +34,10 @@
 	width: 94%;
 }
 
+.about-section .content {
+	width: 85%;
+}
+
 .offscreen {
   border: 0;
   clip: rect(0 0 0 0);
@@ -49,10 +53,18 @@
 	.content {
 		max-width: 800px;
 	}
+
+	.about-section .content {
+		max-width: 700px;
+	}
 }
 
 @media screen and (min-width: 1200px) {
 	.content {
 		max-width: 1200px;
+	}
+
+	.about-section .content {
+		max-width: 700px;
 	}
 }

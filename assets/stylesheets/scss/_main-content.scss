@@ -36,7 +36,8 @@
 }
 
 .theme1 {
-	border: 4px solid functions.tint(colors.$dark, 50%);
+	border: 3px solid functions.tint(colors.$dark, 50%);
+	margin-bottom: 5rem;
 }
 
 .date {
@@ -44,6 +45,10 @@
 	padding: 0 1.5%;
 	font-weight: 1000;
 	color: colors.$dark;
+}
+
+.about-section .speak-section-title {
+	width: 60%;
 }
 
 .address {
@@ -55,6 +60,10 @@
 .address1 {
 	background-color: colors.$grey;
 }
+
+// .about-section .address {
+// 	width: 50%;
+// }
 
 .event {
 	background-color: transparentize(colors.$grey, 0.9%);
@@ -155,6 +164,10 @@
 			width: 70%;
 		}
 	}
+
+	.centering {
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -162,6 +175,10 @@
 		.conference-width {
 			width: 55%;
 		}
+	}
+
+	.centering {
+		width: 60%;
 	}
 
 	.programs {

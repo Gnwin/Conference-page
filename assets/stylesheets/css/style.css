@@ -36,6 +36,10 @@
   width: 94%;
 }
 
+.about-section .content {
+  width: 85%;
+}
+
 .offscreen {
   border: 0;
   clip: rect(0 0 0 0);
@@ -51,10 +55,18 @@
   .content {
     max-width: 800px;
   }
+
+  .about-section .content {
+    max-width: 700px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .content {
     max-width: 1200px;
+  }
+
+  .about-section .content {
+    max-width: 700px;
   }
 }
 /* header */
@@ -132,7 +144,8 @@
 }
 
 .theme1 {
-  border: 4px solid #939598;
+  border: 3px solid #939598;
+  margin-bottom: 5rem;
 }
 
 .date {
@@ -140,6 +153,10 @@
   padding: 0 1.5%;
   font-weight: 1000;
   color: #272a31;
+}
+
+.about-section .speak-section-title {
+  width: 60%;
 }
 
 .address {
@@ -246,10 +263,18 @@
   .conference .conference-width {
     width: 70%;
   }
+
+  .centering {
+    width: 70%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .conference .conference-width {
     width: 55%;
+  }
+
+  .centering {
+    width: 60%;
   }
 
   .programs {
