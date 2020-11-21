@@ -10,8 +10,8 @@
 
 /** GENERAL **/
 
-@use 'typography';
 @use 'reset';
+@use 'typography';
 
 .html {
   font-family: typography.$font-stack;
