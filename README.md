@@ -4,8 +4,8 @@
 
 > This is a HTML &amp; CSS Project is based on an online website for a conference.
 
-![screenshot](https://github.com/Gnwin/Conference-page/blob/conference/assets/images/conferenceMockup.png)
-![screenshot](https://github.com/Gnwin/Conference-page/blob/conference/assets/images/conferenceMockup1.png)
+![screenshot](https://github.com/Gnwin/Conference-page/blob/conference/assets/images/conf1.png)
+![screenshot](https://github.com/Gnwin/Conference-page/blob/conference/assets/images/conf2.png)
 <!-- ![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png) -->
 
 > This project showcases a build of an exact layout of the creative commons global summit 2020 page design.
