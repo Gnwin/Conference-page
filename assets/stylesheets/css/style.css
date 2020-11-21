@@ -18,7 +18,9 @@
 
 .body {
   position: relative;
-  background-image: url("../images/back.jpg");
+  background-image: url("https://raw.githubusercontent.com/SunnySparks/HTML-Capstone-Project/master/img/bg-gray2.png");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .content {
@@ -79,6 +81,11 @@
   padding: 0.7rem;
 }
 
+@media screen and (min-width: 768px) {
+  .header .back-white {
+    background-color: #fff;
+  }
+}
 /* main-content */
 .conference {
   padding: 10rem 0;
@@ -104,10 +111,11 @@
 }
 
 .theme {
-  border: 4px solid black;
+  border: 4px solid white;
   padding: 1rem;
   line-height: 2;
   font-size: 104%;
+  background-color: #d3d3d3;
 }
 
 .date {
@@ -190,22 +198,6 @@
   text-decoration: underline;
 }
 
-.partner-section {
-  background-color: #3d3f46;
-}
-
-.partners > * {
-  margin: 0 2rem;
-}
-
-.concatenate {
-  width: 30%;
-}
-
-.footer_right {
-  width: 70%;
-}
-
 @media screen and (min-width: 768px) {
   .event-pic,
 .event-title,
@@ -228,14 +220,6 @@
   .featured-speakers {
     max-width: 812.8px;
   }
-
-  .partners {
-    max-width: 812.8px;
-  }
-
-  .creative {
-    max-width: 812.8px;
-  }
 }
 @media screen and (min-width: 900px) {
   .conference .conference-width {
@@ -254,7 +238,37 @@
   .featured-speakers {
     max-width: 1212.8px;
   }
+}
+.partner-section {
+  background-color: #3d3f46;
+}
 
+.partners > * {
+  margin: 0 2rem;
+}
+
+.concatenate {
+  width: 30%;
+}
+
+.footer_right {
+  width: 70%;
+}
+
+.back-grey {
+  background-color: #d3d3d3;
+}
+
+@media screen and (min-width: 768px) {
+  .partners {
+    max-width: 812.8px;
+  }
+
+  .creative {
+    max-width: 812.8px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .partners {
     max-width: 1212.8px;
   }

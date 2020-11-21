@@ -28,10 +28,11 @@
 }
 
 .theme {
-	border: 4px solid black;
+	border: 4px solid white;
 	padding: 1rem;
 	line-height: 2;
 	font-size: typography.$font-size * 1.3;
+	background-color: #d3d3d3;
 }
 
 .date {
@@ -114,22 +115,6 @@
 	text-decoration: underline;
 }
 
-.partner-section {
-	background-color: functions.tint(colors.$dark, 10%);
-}
-
-.partners > * {
-	margin: 0 2rem;
-}
-
-.concatenate {
-	width: 30%;
-}
-
-.footer_right {
-	width: 70%;
-}
-
 
 @media screen and (min-width: 768px) {
 	.event-pic,
@@ -151,14 +136,6 @@
 	}
 
 	.featured-speakers {
-		max-width: 812.8px;
-	}
-
-	.partners {
-		max-width: 812.8px;
-	}
-
-	.creative {
 		max-width: 812.8px;
 	}
 }
@@ -184,14 +161,6 @@
 	}
 
 	.featured-speakers {
-		max-width: 1212.8px;
-	}
-
-	.partners {
-		max-width: 1212.8px;
-	}
-	
-	.creative {
 		max-width: 1212.8px;
 	}
 }
