@@ -1,6 +1,8 @@
 @use 'colors';
 @use 'functions';
 
+/* footer */
+
 .partner-section {
 	background-color: functions.tint(colors.$dark, 10%);
 }

@@ -1,12 +1,3 @@
-@font-face {
-  font-family: Cocogoose;
-  src: url("../fonts/cocogoose_trial-webfont.woff");
-}
-@font-face {
-  font-family: Cocogoose;
-  font-weight: bold;
-  src: url("..fonts/cocogoose_trial-webfont.woff2");
-}
 /*** Project Meta ***/
 /* general - line __ */
 /* header - line __ */
@@ -168,11 +159,6 @@
   grid-row: 1/2;
 }
 
-.entry-tickets {
-  align-content: center;
-  vertical-align: middle;
-}
-
 .currency {
   text-decoration: line-through;
   color: #272a31;
@@ -193,6 +179,10 @@
 
 .menu-title {
   background-color: #d4d4d6;
+}
+
+.select-dish {
+  vertical-align: middle;
 }
 
 .address {
@@ -375,6 +365,7 @@
     max-width: 1212.8px;
   }
 }
+/* footer */
 .partner-section {
   background-color: #3d3f46;
 }
