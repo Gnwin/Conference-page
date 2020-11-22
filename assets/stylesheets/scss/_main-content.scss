@@ -47,8 +47,43 @@
 	color: colors.$dark;
 }
 
+.ticket-table {
+	display: grid;
+	grid-template-columns: 1fr repeat(3, 2fr) 3fr;
+	// grid-auto-rows: repeat(4, minmax(auto));
+	// min-height: 150px;
+}
+
+.day-ticket-2 {
+	grid-column: 3 / 5;
+	grid-row: 1 / 2;	
+}
+
+.entry-tickets {
+	align-content: center;
+	vertical-align: middle;
+}
+
+.currency {
+	text-decoration: line-through;
+	color: colors.$dark;
+}
+
+.currency,
+.figure {
+	color: colors.$orange;
+}
+
+.select-price {
+	width: 8px;
+}
+
 .about-section .speak-section-title {
 	width: 60%;
+}
+
+.menu-title {
+	background-color: functions.tint(colors.$dark, 80%);
 }
 
 .address {

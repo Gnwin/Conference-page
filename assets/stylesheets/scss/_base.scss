@@ -29,14 +29,6 @@
 	background-repeat: no-repeat;
 }
 
-.content {
-	width: 94%;
-}
-
-.about-section .content {
-	width: 85%;
-}
-
 .offscreen {
   border: 0;
   clip: rect(0 0 0 0);
@@ -46,6 +38,14 @@
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.content {
+	width: 94%;
+}
+
+.about-section .content {
+	width: 85%;
 }
 
 @media screen and (min-width: 768px) {
