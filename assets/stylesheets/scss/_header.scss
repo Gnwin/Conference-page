@@ -5,18 +5,6 @@
 
 .header {
 	box-shadow: 0 0 60px rgba(235, 6, 6, 0.15);
-	.header-background {
-		background-color: transparentize(colors.$dark, 0.3%);
-			.social-links {
-				color: white;
-				font-size: typography.$font-size - 1;
-			}
-
-			.fa {
-				color: white;
-				font-size: 1.2rem;
-			}
-	}
 	.social-links,
 	.menu-links {
 		text-decoration: none;
@@ -31,6 +19,18 @@
 
 	.active {
 		color: colors.$orange;
+	}
+	.header-background {
+		background-color: transparentize(colors.$dark, 0.3%);
+			.social-links {
+				color: white;
+				font-size: typography.$font-size - 1;
+			}
+
+			.fa {
+				color: white;
+				font-size: 1.2rem;
+			}
 	}
 }
 

@@ -54,7 +54,7 @@
 
 .day-ticket-2 {
 	grid-column: 3 / 5;
-	grid-row: 1 / 2;	
+	grid-row: 1 / 2;
 }
 
 .currency {
@@ -131,6 +131,11 @@
 	width: 50%;
 }
 
+.main-program-border {
+	border: 1px solid colors.$orange;
+	width: 2rem;
+}
+
 .program {
 	background-color: colors.$dark;
 	.main-program-border {
@@ -139,10 +144,6 @@
 	}
 }
 
-.main-program-border {
-	border: 1px solid colors.$orange;
-	width: 2rem;
-}
 
 .program-logo {
 	width: 4rem;
@@ -272,4 +273,3 @@
 		max-width: 1212.8px;
 	}
 }
-
