@@ -4,41 +4,41 @@
 /* footer */
 
 .partner-section {
-	background-color: functions.tint(colors.$dark, 10%);
+  background-color: functions.tint(colors.$dark, 10%);
 }
 
 .partners > * {
-	margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 .concatenate {
-	width: 30%;
+  width: 30%;
 }
 
 .footer_right {
-	width: 70%;
+  width: 70%;
 }
 
 .back-grey {
-	background-color: colors.$grey;
+  background-color: colors.$grey;
 }
 
 @media screen and (min-width: 768px) {
-	.partners {
-		max-width: 812.8px;
-	}
+  .partners {
+    max-width: 812.8px;
+  }
 
-	.creative {
-		max-width: 812.8px;
-	}
+  .creative {
+    max-width: 812.8px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-	.partners {
-		max-width: 1212.8px;
-	}
+  .partners {
+    max-width: 1212.8px;
+  }
 
-	.creative {
-		max-width: 1212.8px;
-	}
+  .creative {
+    max-width: 1212.8px;
+  }
 }

@@ -4,51 +4,55 @@
 /* header */
 
 .header {
-	box-shadow: 0 0 60px rgba(235, 6, 6, 0.15);
-	.social-links,
-	.menu-links {
-		text-decoration: none;
-	}
-	.menu-li {
-		margin-left: 3rem;
-	}
+  box-shadow: 0 0 60px rgba(235, 6, 6, 0.15);
 
-	.nav2 {
-		padding: 0.5rem 0;
-	}
+  .social-links,
+  .menu-links {
+    text-decoration: none;
+  }
 
-	.active {
-		color: colors.$orange;
-	}
-	.header-background {
-		background-color: transparentize(colors.$dark, 0.3%);
-			.social-links {
-				color: white;
-				font-size: typography.$font-size - 1;
-			}
+  .menu-li {
+    margin-left: 3rem;
+  }
 
-			.fa {
-				color: white;
-				font-size: 1.2rem;
-			}
-	}
+  .nav2 {
+    padding: 0.5rem 0;
+  }
+
+  .active {
+    color: colors.$orange;
+  }
+
+  .header-background {
+    background-color: transparentize(colors.$dark, 0.3%);
+
+    .social-links {
+      color: white;
+      font-size: typography.$font-size - 1;
+    }
+
+    .fa {
+      color: white;
+      font-size: 1.2rem;
+    }
+  }
 }
 
 .logo {
-	width: 50px;
+  width: 50px;
 }
 
 .campaign {
-	color: colors.$orange;
-	border: 4px solid colors.$orange;
-	margin-left: 4rem;
-	padding: 0.7rem;
+  color: colors.$orange;
+  border: 4px solid colors.$orange;
+  margin-left: 4rem;
+  padding: 0.7rem;
 }
 
 @media screen and (min-width: 768px) {
-	.header {
-		.back-white {
-			background-color: #fff;
-		}
-	}
+  .header {
+    .back-white {
+      background-color: #fff;
+    }
+  }
 }
