@@ -1,8 +1,13 @@
 /*** Project Meta ***/
+
 /* general - line __ */
+
 /* header - line __ */
+
 /* main content - line __ */
+
 /* footer - line __ */
+
 /** GENERAL **/
 .html {
   font-family: "Cocogoose", "Lato", sans-serif;
@@ -51,6 +56,7 @@
     max-width: 700px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .content {
     max-width: 1200px;
@@ -60,30 +66,38 @@
     max-width: 700px;
   }
 }
+
 /* header */
 .header {
   box-shadow: 0 0 60px rgba(235, 6, 6, 0.15);
 }
+
 .header .social-links,
 .header .menu-links {
   text-decoration: none;
 }
+
 .header .menu-li {
   margin-left: 3rem;
 }
+
 .header .nav2 {
   padding: 0.5rem 0;
 }
+
 .header .active {
   color: #ec5242;
 }
+
 .header .header-background {
   background-color: rgba(39, 42, 49, 0.7);
 }
+
 .header .header-background .social-links {
   color: white;
   font-size: 79%;
 }
+
 .header .header-background .fa {
   color: white;
   font-size: 1.2rem;
@@ -105,6 +119,7 @@
     background-color: #fff;
   }
 }
+
 /* main-content */
 .conference {
   padding: 10rem 0;
@@ -250,6 +265,7 @@
 .program {
   background-color: #272a31;
 }
+
 .program .main-program-border {
   border: 1px solid #ec5242;
   width: 2rem;
@@ -295,19 +311,20 @@
     font-size: 160%;
   }
 }
+
 @media screen and (min-width: 768px) {
   .past {
     display: flex;
   }
 
   .past1,
-.past2 {
+  .past2 {
     width: 50%;
     margin-bottom: 0;
   }
 
   .past-text,
-.past-text1 {
+  .past-text1 {
     left: 13%;
     top: 40%;
   }
@@ -321,14 +338,14 @@
   }
 
   .past-pic,
-.past-pic1 {
+  .past-pic1 {
     width: 100%;
     margin: 0;
   }
 
   .event-pic,
-.event-title,
-.event-text {
+  .event-title,
+  .event-text {
     width: unset;
   }
 
@@ -348,6 +365,7 @@
     max-width: 812.8px;
   }
 }
+
 @media screen and (min-width: 900px) {
   .conference .conference-width {
     width: 70%;
@@ -357,6 +375,7 @@
     width: 70%;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .conference .conference-width {
     width: 55%;
@@ -374,6 +393,7 @@
     max-width: 1212.8px;
   }
 }
+
 /* footer */
 .partner-section {
   background-color: #3d3f46;
@@ -404,6 +424,7 @@
     max-width: 812.8px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .partners {
     max-width: 1212.8px;
@@ -413,5 +434,3 @@
     max-width: 1212.8px;
   }
 }
-
-/*# sourceMappingURL=about.css.map */
