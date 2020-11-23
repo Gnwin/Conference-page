@@ -1,0 +1,27 @@
+{
+  "name": "conference",
+  "version": "1.0.0",
+  "description": "This is a HTML &amp; CSS Project is based on an online website for a conference.",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./assets/stylesheets/scss/style.scss:./assets/stylesheets/css/style.css ./assets/stylesheets/scss/about.scss:./assets/stylesheets/css/about.css ./assets/stylesheets/scss/tickets.scss:./assets/stylesheets/css/tickets.css  --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gnwin/Conference-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gnwin/Conference-page/issues"
+  },
+  "homepage": "https://github.com/Gnwin/Conference-page#readme",
+  "devDependencies": {
+    "sass": "^1.29.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.18.0"
+  }
+}
