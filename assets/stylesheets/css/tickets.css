@@ -64,17 +64,6 @@
 .header {
   box-shadow: 0 0 60px rgba(235, 6, 6, 0.15);
 }
-.header .header-background {
-  background-color: rgba(39, 42, 49, 0.7);
-}
-.header .header-background .social-links {
-  color: white;
-  font-size: 79%;
-}
-.header .header-background .fa {
-  color: white;
-  font-size: 1.2rem;
-}
 .header .social-links,
 .header .menu-links {
   text-decoration: none;
@@ -87,6 +76,17 @@
 }
 .header .active {
   color: #ec5242;
+}
+.header .header-background {
+  background-color: rgba(39, 42, 49, 0.7);
+}
+.header .header-background .social-links {
+  color: white;
+  font-size: 79%;
+}
+.header .header-background .fa {
+  color: white;
+  font-size: 1.2rem;
 }
 
 .logo {
@@ -185,9 +185,18 @@
   vertical-align: middle;
 }
 
+.select-dish-button {
+  background-color: #ec5242;
+  color: white;
+  padding: 2rem 8rem;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+
 .address {
   font-size: 128%;
   color: #272a31;
+  margin-top: 4rem;
   margin-bottom: 6rem;
 }
 
@@ -233,15 +242,15 @@
   width: 50%;
 }
 
-.program {
-  background-color: #272a31;
-}
-.program .main-program-border {
+.main-program-border {
   border: 1px solid #ec5242;
   width: 2rem;
 }
 
-.main-program-border {
+.program {
+  background-color: #272a31;
+}
+.program .main-program-border {
   border: 1px solid #ec5242;
   width: 2rem;
 }

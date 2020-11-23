@@ -83,9 +83,18 @@
   vertical-align: middle;
 }
 
+.select-dish-button {
+	background-color: colors.$orange;
+	color: white;
+	padding: 2rem 8rem;
+	font-size: 1.5rem;
+	margin-bottom: 5rem;
+}
+
 .address {
   font-size: typography.$font-size * 1.6;
-  color: colors.$dark;
+	color: colors.$dark;
+	margin-top: 4rem;
   margin-bottom: 6rem;
 }
 
